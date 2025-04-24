@@ -1,0 +1,38 @@
+{
+  "name": "wedding-backend",
+  "version": "1.0.0",
+  "description": "Backend for wedding website using AWS SST",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sst dev",
+    "build": "sst build",
+    "deploy": "sst deploy",
+    "remove": "sst remove",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johanbyren/wedding-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johanbyren/wedding-backend/issues"
+  },
+  "homepage": "https://github.com/johanbyren/wedding-backend#readme",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.134",
+    "@types/node": "^20.11.19",
+    "@types/uuid": "^9.0.8",
+    "aws-cdk-lib": "^2.124.0",
+    "constructs": "^10.3.0",
+    "sst": "^2.48.5",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-lambda-nodejs": "^1.203.0",
+    "aws-sdk": "^2.1564.0",
+    "uuid": "^9.0.1"
+  }
+}
